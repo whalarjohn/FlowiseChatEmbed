@@ -388,8 +388,6 @@ textarea {
 .usermessage,
 .usermessagewaiting {
   display: flex;
-    opacity: 0!important;
-
 }
 
 .markdownanswer {
