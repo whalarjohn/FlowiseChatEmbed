@@ -199,7 +199,6 @@ textarea {
   background-color: #f7f8ff;
   border: var(--chatbot-host-bubble-border);
   border-radius: 6px;
-  opacity: 0!important;
 }
 
 .chatbot-host-bubble img,
@@ -389,6 +388,8 @@ textarea {
 .usermessage,
 .usermessagewaiting {
   display: flex;
+    opacity: 0!important;
+
 }
 
 .markdownanswer {
