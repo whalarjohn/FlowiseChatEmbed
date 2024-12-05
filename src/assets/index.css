@@ -186,12 +186,6 @@ textarea {
 .chatbot-host-bubble {
   color: var(--chatbot-host-bubble-color);
   background-color: #f7f8ff;
-}
-
-.chatbot-host-bubble > .bubble-typing {
-  background-color: #f7f8ff;
-  border: var(--chatbot-host-bubble-border);
-  border-radius: 6px;
   animation-duration: 2s;
   animation-fill-mode: both;
   -webkit-animation-duration: 2s;
@@ -199,6 +193,12 @@ textarea {
   opacity: 0;
   animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp;
+}
+
+.chatbot-host-bubble > .bubble-typing {
+  background-color: #f7f8ff;
+  border: var(--chatbot-host-bubble-border);
+  border-radius: 6px;
 }
 
 .chatbot-host-bubble img,
