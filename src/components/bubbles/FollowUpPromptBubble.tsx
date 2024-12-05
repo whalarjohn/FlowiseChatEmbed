@@ -14,6 +14,7 @@ export const FollowUpPromptBubble = (props: Props) => (
       <span
         class="px-2 py-1 whitespace-pre-wrap max-w-full chatbot-host-bubble border"
         data-testid="host-bubble"
+        data-investigation-id="b"
         style={{
           width: 'max-content',
           'font-size': props.starterPromptFontSize ? `${props.starterPromptFontSize}px` : '15px', // Convert to string with unit

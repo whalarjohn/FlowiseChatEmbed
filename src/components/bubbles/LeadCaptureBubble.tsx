@@ -87,8 +87,9 @@ export const LeadCaptureBubble = (props: Props) => {
         <Avatar initialAvatarSrc={props.avatarSrc} />
       </Show>
       <div
-        class="px-4 py-2 ml-2 max-w-full chatbot-host-bubble prose mytestclass_txt"
+        class="px-4 py-2 ml-2 max-w-full chatbot-host-bubble prose"
         data-testid="host-bubble"
+        data-investigation-id="c"
         style={{
           'background-color': props.backgroundColor ?? defaultBackgroundColor,
           color: props.textColor ?? defaultTextColor,

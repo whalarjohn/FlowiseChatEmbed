@@ -14,6 +14,7 @@ export const SourceBubble = (props: Props) => (
       <span
         class="px-2 py-1 ml-1 whitespace-pre-wrap max-w-full chatbot-host-bubble"
         data-testid="host-bubble"
+        data-investigation-id="d"
         style={{
           width: 'max-content',
           'max-width': '80px',
