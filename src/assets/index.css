@@ -192,12 +192,41 @@ textarea {
   background-color: #f7f8ff;
   border: var(--chatbot-host-bubble-border);
   border-radius: 6px;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
 }
 
 .chatbot-host-bubble img,
 .chatbot-host-bubble iframe,
 .chatbot-host-bubble video {
   border-radius: var(--chatbot-border-radius);
+}
+
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,100px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,100px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
 }
 
 .chatbot-guest-bubble {
