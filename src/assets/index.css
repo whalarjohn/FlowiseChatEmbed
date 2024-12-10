@@ -88,6 +88,14 @@ pre {
     height 400ms ease-out;
 }
 
+.bubble1,
+.bubble2,
+.bubble3 {
+  background-color: #23cace;
+  opacity: 0.5;
+}
+
+
 .bubble1 {
   animation: chatBubbles 1s ease-in-out infinite!important;
   }
